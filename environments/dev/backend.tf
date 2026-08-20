@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "zspace-bucket-tfstate"
+    bucket         = "a-bucket"
     description    = "bucket to store tfstate file"
     key            = "dev/network/terraform.tfstate"
     region         = "eu-central-1"
