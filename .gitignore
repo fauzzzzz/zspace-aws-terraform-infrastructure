@@ -1,0 +1,25 @@
+# Terraform Cache
+**/.terraform/
+
+# Terraform State Files (CRITICAL SECRETS)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Sensitive Variable Files
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# SSH Keys & Crash Logs
+*.pem
+*.key
+*.pub
+*.sql
+crash.log
+
+# OS & IDE Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
